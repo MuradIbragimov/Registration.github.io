@@ -1,0 +1,92 @@
+
+p {
+    font-size: 16px;
+    font-family: 'Opan Sans', sans-serif;
+    color:#777;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Opan Sans', sans-serif;
+    text-align: center;
+}
+body {
+    display: flex;
+    background-color: #f9fafb;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.buttons {
+    width: auto;
+    display: flex;
+    margin: 20px;
+}
+
+.buttons a {
+    border: #3498db 3px solid;
+    padding: 3px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+}
+
+.buttons a:last-child {
+    margin-left: 20px;
+}
+
+.container {
+    display: block;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 30px 40px;
+    width: 400px;
+    height: 550px;
+}
+* {
+    box-sizing: border-box;
+}
+.input {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.input p {
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    border: 2px solid #2ecc71;
+    border-radius: 4px;
+    padding: 10px;
+}
+h2,h3.h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #3498db;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+
+}
+
+small {
+    color: red;
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+}
