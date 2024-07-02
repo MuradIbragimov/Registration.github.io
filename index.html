@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body> 
+
+    <div class="buttons">
+        <a href="index.html" class="a1">Зарегестрироваться</a>
+        <a href="sign.html"class = "a2">Войти</a>
+    </div>
+    
+    <div class="container">
+
+        <h2>Регистрация</h2>
+
+        <div class="input">
+            <p>Username</p>
+            <input 
+            type="text"
+            id="username"
+            placeholder="Enter username">
+            <small id="error-name"></small>
+        </div>
+
+        <div class="input">
+            <p>Email</p>
+            <input 
+            type="email"
+            id="email"
+            placeholder="Enter email">
+            <small id="error-email"></small>
+        </div>
+
+        <div class="input">
+            <p>Password</p>
+            <input 
+            type="password"
+            id="password"
+            placeholder="Enter password">
+            <small id="error-password"></small>
+        </div>
+
+        <div class="input">
+            <p>Confirm Password</p>
+            <input 
+            type="password"
+            id="confirm-password"
+            placeholder="Enter password again">
+            <small id="error-confirm-password"></small>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+    </div>
+<script src="js/signup.js"></script>
+</body>
+</html>
